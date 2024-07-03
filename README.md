@@ -1,6 +1,6 @@
 # `supabase-js` in Deno
 
-[supabase-js](https://supabase.com/docs/reference/javascript/installing#use-at-runtime-in-deno) is fully compatible with Deno and can be imported into your project using esm.sh:
+[supabase-js](https://supabase.com/docs/reference/javascript/installing#use-at-runtime-in-deno) is fully compatible with Deno and can be imported into your project using [JSR](https://jsr.io/):
 
 ```ts
 import { createClient } from "jsr:@supabase/supabase-js@2";
